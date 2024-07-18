@@ -1,0 +1,134 @@
+
+.image-container{
+    position: relative;
+    margin-top: 5%;
+}
+.image-item{
+    min-width: 100%;
+}
+.image-list{
+    display: flex;
+
+    
+}
+.image-list img{
+    width: 100%;
+    height: 100%;
+}
+.image-btn-container{
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.slider-btn{
+    border: 2px solid transparent;
+    padding: 100px 20px;
+    font-size: 50px;
+    font-weight: 300;
+    background-color: transparent;
+    color: white;
+    position: sticky;
+
+}
+
+/* .main{
+    position: relative;
+    top: -300px;
+    
+}
+.card-prod-container{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    padding: 10px;
+}
+.card-prod {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 300px;
+    box-shadow: -5px -5px 10px rgba(0, 0, 0, 0.1) 5px 10px 100px rgba(255, 255, 255, 0.1);
+    
+
+}
+
+
+.card-prod h2{
+    margin: 0;
+    padding: 10px;
+}
+.card-prod-nested-card{
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card-nested p{
+    margin: 5px;
+}
+.card-nested img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+} */
+
+
+.title_container{
+    margin: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+    background-color: rgba(255, 255, 255, 0.986);
+
+}
+.title_heading{
+    display: flex;
+    align-items: center;
+    padding: 2px 20px;
+    
+}
+.title_heading a{
+    text-decoration: none;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.prod_container{
+    height:280px;
+    position: relative;
+    
+
+}
+.prod_list{ 
+    display: flex;
+}
+.prod_item{
+    z-index:1;
+    min-width:100px;
+    width: 240px;
+    padding: 20px 10px;
+}
+
+.prod_item img{
+    width:100%;
+}
+.prod_btn_container{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
+}
+.prod_btn{
+    padding: 20px 10px;
+    font-size:30px;
+    border:none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index:2;
+
+}

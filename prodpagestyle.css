@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0e3e3;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.left-column {
+    flex: 1;
+    padding: 20px;
+}
+
+.main-image {
+    width: 100%;
+    max-width: 500px;
+}
+
+.small-images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.small-images img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.right-column {
+    flex: 2;
+    padding: 20px;
+}
+
+.right-column h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.rating {
+    font-size: 14px;
+    color: #FFA41C;
+}
+
+.amazon-choice {
+    background-color: #232F3E;
+    color: white;
+    padding: 5px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 28px;
+    color: #B12704;
+    margin-bottom: 10px;
+}
+
+.deal {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.discount {
+    text-decoration: line-through;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.tax, .emi {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.coupon {
+    margin-bottom: 10px;
+}
+
+.coupon input {
+    margin-right: 10px;
+}
+
+.offers {
+    margin-bottom: 20px;
+}
+
+.offers p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.offers a {
+    color: #007185;
+    text-decoration: none;
+}
+
+.availability {
+    margin-bottom: 20px;
+}
+
+.availability p {
+    margin: 5px 0;
+}
+
+.quantity {
+    margin-bottom: 20px;
+}
+
+.quantity label {
+    margin-right: 10px;
+}
+
+.buttons {
+    margin-bottom: 20px;
+}
+
+.add-to-cart, .buy-now {
+    background-color: #FFA41C;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.buy-now {
+    background-color: #FF9900;
+}
+
+.additional-info {
+    font-size: 14px;
+}
+
+.additional-info input {
+    margin-right: 10px;
+}
+
+.additional-info .wish-list {
+    background-color: #232F3E;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.invisible{
+
+    visibility: hidden;
+
+}

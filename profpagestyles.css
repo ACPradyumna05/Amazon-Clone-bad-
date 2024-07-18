@@ -1,0 +1,28 @@
+
+h3 {
+    margin-top: 20px;
+}
+
+.card-header {
+    background-color: #f8f8f8;
+}
+
+.card-header .btn-link {
+    font-size: 18px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.card-body p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.card-body .btn-primary {
+    margin-top: 10px;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #007bff;
+    color: white;
+}
